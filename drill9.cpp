@@ -56,9 +56,9 @@ public:
 
     Date(Year y, Month m, int d): year(y), month(m), day(d) {if (!isvalid()) throw Invalid{}; }
 
-    int get_day() {return day; }
-    Month get_month() {return month; }
-    Year get_year() {return year; }
+    int get_day() const {return day; }
+    Month get_month() const {return month; }
+    Year get_year() const {return year; }
 
     void add_day(int n);
     bool isvalid();
