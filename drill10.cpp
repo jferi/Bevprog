@@ -39,7 +39,8 @@ vector<Point> original_points;
     
     for (const auto& r : original_points)
         ost << r.x << '\t' << r.y << endl;
-    oname.end();
+    
+    ost.close();
     
     vector<Point> processed_points;
     
