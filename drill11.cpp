@@ -10,19 +10,20 @@ try {
     cout << birth_year << '\t' << ("decimal") << endl;
     cout << hex << birth_year << '\t' << ("hexadecimal") << endl;
     cout << oct << birth_year << '\t' << ("octal") << endl;
-    cout << noshowbase << dec;
+    cout << noshowbase << dec << endl;
     
     
     int a, b, c, d;
+    cout << "Please enter these integers 4 times: -1234-" << endl;
     cin >> a >> oct >> b >> hex >> c >> d;
     cout << a << '\t'<< b << '\t'<< c << '\t'<< d << '\n' ;
     
     double num = 1234567.89;
     cout << defaultfloat << num << endl;
     cout << fixed << num << endl;
-    cout << scientific << num << endl;
+    cout << scientific << num << endl << endl;
     
-    cout << "L.name:" << setw(8) << "F.name:" << setw(13) << "Telephone:" << setw(18) << "e-mail_address:" << endl;
+    cout << "L.name:" << setw(8) << "F.name:" << setw(13) << "Telephone:" << setw(18) << "e-mail_address:" << endl << endl;
     
     cout << "Juhász" << setw(8) << "Ferenc" << setw(15) << "06309993076" << setw(21) << "jferi9970@gmail.com" << endl;
     
